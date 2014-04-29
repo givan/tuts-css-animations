@@ -21,12 +21,12 @@ nav.main-nav {
 
 .top-nav li {
 	background: #333;
-   	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2f2f2f), to(#4f4f4f));
-   	background-image: -webkit-linear-gradient(top, #2f2f2f, #4f4f4f); 
-   	background-image:    -moz-linear-gradient(top, #2f2f2f, #4f4f4f);
-   	background-image:     -ms-linear-gradient(top, #2f2f2f, #4f4f4f);
-   	background-image:      -o-linear-gradient(top, #2f2f2f, #4f4f4f);
-	background-image:      linear-gradient(top, #2f2f2f, #4f4f4f);
+   	/*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2f2f2f), to(#4f4f4f));*/
+   	/*background-image: -webkit-linear-gradient(top, #2f2f2f, #4f4f4f); */
+   	/*background-image:    -moz-linear-gradient(top, #2f2f2f, #4f4f4f);*/
+   	/*background-image:     -ms-linear-gradient(top, #2f2f2f, #4f4f4f);*/
+   	/*background-image:      -o-linear-gradient(top, #2f2f2f, #4f4f4f);*/
+	/*background-image:      linear-gradient(top, #2f2f2f, #4f4f4f);*/
 	border-bottom: 2px solid #111;
 	border-right: 1px solid #555;
 	float: left;

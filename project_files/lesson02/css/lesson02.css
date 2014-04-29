@@ -36,12 +36,17 @@ nav.main-nav {
 	position: relative;
 	text-align: center;
 	width: 150px;
-	transition-property: height;
-	transition-duration: 0.3s;
+    /*transition-property: weight;*/
+    transition-property: heigg;
+    transition-duration: 0.3s;
 }
 
+/*.top-nav li:hover {*/
+	/*height: 30px;*/
+/*}*/
+
 .top-nav li:hover {
-	height: 30px;
+    width: 170px;
 }
 
 .top-nav li a {

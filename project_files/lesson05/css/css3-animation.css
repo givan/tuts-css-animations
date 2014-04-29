@@ -56,7 +56,8 @@ nav.main-nav {
 
 .top-nav li a:hover {
 	color: #fff;
-	top: 5px;
+    font-weight: bold;
+    padding-top: 5px;
 }
 
 .top-nav li a {
@@ -65,10 +66,12 @@ nav.main-nav {
 	position: absolute;
 	top: 0;
 	left: 0;
+    padding-top: 0px;
 	width: 150px;
 	height: 25px;
 	text-decoration: none;
-	transition-property: color, top;
-	transition-duration: 0.3s;
-	transition-timing-function: ease;
+	/*transition-property: color, font-weight, padding-top;*/
+	/*transition-duration: 0.2s;*/
+	/*transition-timing-function: ease;*/
+    transition: color, font-weight, padding-top 0.2s ease;
 }
